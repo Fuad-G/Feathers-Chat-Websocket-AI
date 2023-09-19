@@ -1,0 +1,157 @@
+body{
+  /* background-color: rgb(245, 255, 208); */
+  color: whitesmoke;
+
+}
+
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: rgb(245, 255, 208); */
+
+}
+
+.heading {
+  margin-bottom: 1rem;
+  font-weight: 100;
+  font-size: 2rem;
+  text-align: center;
+}
+
+
+.loginPanels
+{
+  border-radius: 4px;
+  border: 1px inset #00ccff;
+  padding: 0.25rem;
+  display: flex;
+  width:75%;
+  background: linear-gradient(-45deg, #ffeb3b, #74efff, #9c27b0);
+  background-size: 600% 600%;
+  animation: gradient-bg 20s ease infinite;
+  margin-top: 10%;
+  margin-bottom: 10%;
+
+  z-index: 1;
+
+  /* ROTATING RAINBOW BORDER --------------------------------------------------------------- */
+  /* --angle:0deg;
+  border-image: conic-gradient(from var(--angle), red, yellow, lime, aqua, blue, magenta, red) 1;
+  animation: 10s rotate linear infinite; */
+  /* -------------------------------------------------------------------------------------- */
+}
+
+.loginCredentialsPanel
+{
+  border-radius: 4px;
+  border: 1px inset #00ccff;
+  padding: 2rem;
+  width: 45%;
+  background-color: rgb(20, 20, 20);
+  margin-left: 2px;
+  padding-top: 0;
+  /* ROTATING RAINBOW BORDER --------------------------------------------------------------- */
+  /* --angle:0deg;
+  border-image: conic-gradient(from var(--angle), red, yellow, lime, aqua, blue, magenta, red) 1;
+  animation: 10s rotate linear infinite; */
+  /* -------------------------------------------------------------------------------------- */
+
+}
+
+.loginVisualsPanel
+{
+  max-height: 600px;
+  border: 1px inset #00ccff;
+  /* ROTATING RAINBOW BORDER --------------------------------------------------------------- */
+  /* --angle:0deg;
+  border-image: conic-gradient(from var(--angle), red, yellow, lime, aqua, blue, magenta, red) 1;
+  animation: 10s rotate linear infinite; */
+  /* -------------------------------------------------------------------------------------- */
+  border-radius: 4px;
+  width:50%;
+  overflow: hidden;
+  margin-right: 2px;
+
+}
+
+.loginVisualsPanel img
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 25%;
+}
+
+.inputField {
+  width: 95%;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+fieldset{
+  
+  padding: 1.5rem 1.5rem;
+  margin: auto;
+  margin-bottom: 1.5rem;
+  border-radius: 6px;
+  border: 0.25px inset #00ccff;
+/* ROTATING RAINBOW BORDER --------------------------------------------------------------- */
+  /* --angle:0deg;
+	border-image: conic-gradient(from var(--angle), red, yellow, lime, aqua, blue, magenta, red) 1;
+	animation: 10s rotate linear infinite; */
+/* -------------------------------------------------------------------------------------- */
+  border-style: inset;
+}
+
+@keyframes rotate {
+	to {
+		--angle: 360deg;
+	}
+}
+
+@property --angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
+.button {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 2rem;
+  border-radius: 4px;
+  border: none;
+  background: linear-gradient(-45deg, #ffeb3b, #74efff, #9c27b0);
+  background-size: 600% 600%;
+  animation: gradient-bg 20s ease infinite;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+h2
+{
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 0;
+
+}
+h4
+{
+  text-align: center;
+  margin-bottom: 3rem;
+  margin-top: 0;
+  font-weight: lighter;
+}
+
+@keyframes gradient-bg {
+0% {
+  background-position: 0% 50%;
+}
+50% {
+  background-position: 100% 50%;
+}
+100% {
+  background-position: 0% 50%;
+}
+}

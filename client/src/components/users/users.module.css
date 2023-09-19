@@ -1,0 +1,25 @@
+.users {
+    display: flex;
+    flex-direction: column;
+    max-height: 80vh; /* Adjust the max-height as needed */
+    overflow-y: auto; /* Add this to make it scrollable if content exceeds max-height */
+    z-index: 1;
+    border-style: inset;
+    border-radius: 5px;
+    border-width: 1px;
+    text-align: center;
+  }
+  
+  .usersList {
+    flex: 1;
+    width: 100%;
+  }
+  
+  .userContainer {
+    border-bottom: 1px solid #000000; /* Add a border line between each user */
+  }
+  
+  .user {
+    background-color: #014a57;
+    padding: 5px 10px;
+  }

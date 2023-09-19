@@ -1,0 +1,15 @@
+.footer {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  z-index: 1;
+  background: none;
+  background-size: 600% 600%;
+  animation: gradient-bg 20s ease infinite;
+}
+
+.footer__text {
+  color: white;
+  font-weight: bold;
+}

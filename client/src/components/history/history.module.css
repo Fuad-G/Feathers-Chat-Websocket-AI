@@ -1,0 +1,23 @@
+.history {
+  width: 300px;
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+.historyTitle {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.messages {
+  max-height: 400px;
+  overflow-y: auto;
+  cursor: pointer;
+
+}
+
+.message {
+  background-color: #ffffff;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}

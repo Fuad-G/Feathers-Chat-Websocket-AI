@@ -1,0 +1,15 @@
+.message__container{
+  margin: 0.5em;
+  color: white;
+  padding: 1em;
+  z-index: 1;
+
+}
+
+.sent{
+  background-color: rgb(129, 129, 129);
+
+}
+.response{
+  background-color: rgb(49, 49, 49);
+}

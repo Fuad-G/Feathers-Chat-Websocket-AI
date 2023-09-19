@@ -1,0 +1,59 @@
+{
+  "hash": "546f845f",
+  "browserHash": "ab6ac244",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "8cb130a0",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "cc732fc6",
+      "needsInterop": true
+    },
+    "react-particles": {
+      "src": "../../node_modules/react-particles/esm/index.js",
+      "file": "react-particles.js",
+      "fileHash": "6f02baa7",
+      "needsInterop": false
+    },
+    "tsparticles": {
+      "src": "../../node_modules/tsparticles/esm/index.js",
+      "file": "tsparticles.js",
+      "fileHash": "e25b7faf",
+      "needsInterop": false
+    },
+    "@feathersjs/client": {
+      "src": "../../node_modules/@feathersjs/client/dist/feathers.js",
+      "file": "@feathersjs_client.js",
+      "fileHash": "d8911739",
+      "needsInterop": true
+    },
+    "@feathersjs/socketio-client": {
+      "src": "../../node_modules/@feathersjs/socketio-client/lib/index.js",
+      "file": "@feathersjs_socketio-client.js",
+      "fileHash": "a0c6ffd4",
+      "needsInterop": true
+    },
+    "socket.io-client": {
+      "src": "../../node_modules/socket.io-client/build/esm/index.js",
+      "file": "socket__io-client.js",
+      "fileHash": "a82da506",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-6DDWND5A": {
+      "file": "chunk-6DDWND5A.js"
+    },
+    "chunk-WVGIMT2Y": {
+      "file": "chunk-WVGIMT2Y.js"
+    },
+    "chunk-4EOJPDL2": {
+      "file": "chunk-4EOJPDL2.js"
+    }
+  }
+}

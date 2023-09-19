@@ -1,0 +1,49 @@
+.header {
+  position: relative;
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+  margin: 0;
+  background: none;
+  background-size: 600% 600%;
+  animation: gradient-bg 20s ease infinite;
+}
+
+.header__title {
+  color: white;
+  font-size: 24px;
+  margin: 0;
+  text-align: center;
+}
+
+.buttons__container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end; /* Align buttons to the right side */
+  align-items: flex-start; /* Align title to the top */
+  margin-top: 20px;
+  
+}
+
+.users__button{
+  background-color: #cc18cc;
+  margin-right: 0px;
+
+}
+.header__button {
+  background-color: #16a19a;
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
+}
+@keyframes gradient-bg {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+  }
